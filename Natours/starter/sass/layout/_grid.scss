@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width; // The standard is that we use 1140px,but we are playing with remalive mesures so we use rem. Remember 1rem = 10 px for us
-  background-color: #eeeeee8e;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -10,7 +9,6 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: orange;
     float: left;
 
     &:not(:last-child) {
